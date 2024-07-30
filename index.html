@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <main class ='main'>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Quiz App</a>
+            <button class="navbar-toggler custom-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class = "container">
+      <section class = "quiz-section hidden">
+          <div class="quiz-box">
+            <h1>CodeHal Quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz Website tutorials</span>
+              <span class="header-score">Score: 0 / 5</span>
+            </div>
+            <h2 class="question-text">What does HTML Stand for?</h2>
+            <div class="option-list">
+             
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total">1 of 5 Questions</span>
+              <button class="next-btn">Siguiente</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+              <h2>Resultado</h2>
+              <div class="percentage-container">
+                <div class="circular-progress">
+                  <span class="progress-value">0%</span>
+                </div>
+                <span class="score-text">Tu puntaje 0 de 5</span>
+              </div>
+              <div class="buttons">
+                <button class="tryAgain-btn">Nuevo intento</button>
+                <button class="goHome-btn">Inicio</button>
+              </div>
+          </div>
+      </section>
+        
+      
+      <div class="container-fluid full-height centered-content home">
+          <div>
+            <h1>Texto Centrado</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro modi sit sint aspernatur nam labore architecto tenetur nulla odio inventore recusandae quam, quae distinctio voluptate pariatur commodi placeat cum nostrum.</p>
+            <button class="start-button">Iniciar</button>
+        </div>
+        
+    </div>  
+</main>
+<div class="popup-info">
+  <h2>Quiz guide</h2>
+  <span class="info">1. Lorem ipsum, dolor sit amet consectetur adipisicing.</span>
+  <span class="info">2. Lorem ipsum, dolor sit amet consec.</span>
+  <span class="info">3. Lorem ipsum dolor sit amet.</span>
+  <span class="info">4. Lorem ipsum dolor sit amet consectetur.</span>
+  <span class="info">5. Lorem ipsum, dolor sit amet consectetu..</span>
+  <div class="btn-group">
+    <button class="info-btn exit-btn">Salir</button>
+    <a href="#" class="info-btn continue-btn">Continuar</a>
+  </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+  </body>
+</html>
