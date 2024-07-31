@@ -1,6 +1,6 @@
 # Quiz Website
 
-![Quiz Website](path_to_your_screenshot_image)
+![Quiz Website](images/screen1.png)
 
 ## Descripción
 
@@ -42,8 +42,6 @@
 
 ## Capturas de Pantalla
 
-![Inicio](images/screen1.png)
-*Pantalla de inicio de la aplicación.*
 
 ![Cómo empezar](images/screen2.png)
 *PopUp que explica como iniciar el quiz.*
